@@ -1,0 +1,66 @@
+.wrapper {
+  background-color: black;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 670px) {
+  .wrapper {
+    height: 214px;
+  }
+}
+
+.blocks {
+  display: flex;
+  height: 96px;
+  justify-content: center;
+}
+@media (max-width: 670px) {
+  .blocks {
+    flex-direction: column-reverse;
+  }
+}
+.blocks .leftBlock {
+  margin-right: 160px;
+}
+@media (max-width: 670px) {
+  .blocks .leftBlock {
+    margin-right: 0;
+  }
+}
+.blocks .linkItem {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  height: 24px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.blocks .linkItem .link {
+  color: #fff;
+  margin-left: 14px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.blocks .linkItem .icon {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 670px) {
+  .blocks .rightBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .blocks .rightBlock .link {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

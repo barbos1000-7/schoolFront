@@ -1,0 +1,46 @@
+.input {
+  margin-bottom: 10px;
+  border: 1px solid teal;
+  height: 44px;
+  width: 392px;
+  padding: 0 15px;
+  outline: none;
+}
+.input:focus {
+  border: 1px solid #000;
+}
+.input::-webkit-input-placeholder {
+  color: teal;
+}
+@media (max-width: 470px) {
+  .input {
+    width: 292px;
+  }
+}
+
+.select {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.subj {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: black;
+}
+.link:hover {
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=index.module.css.map */

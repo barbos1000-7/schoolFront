@@ -1,0 +1,21 @@
+.root {
+  margin-bottom: 10px;
+  border: 1px solid teal;
+  height: 44px;
+  width: 392px;
+  padding: 0 15px;
+  outline: none;
+}
+.root:focus {
+  border: 1px solid #000;
+}
+.root::-webkit-input-placeholder {
+  color: teal;
+}
+@media (max-width: 470px) {
+  .root {
+    width: 292px;
+  }
+}
+
+/*# sourceMappingURL=Input.module.css.map */

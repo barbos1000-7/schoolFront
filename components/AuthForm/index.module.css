@@ -1,0 +1,26 @@
+.input {
+  margin-bottom: 10px;
+  border: 1px solid teal;
+  height: 44px;
+  width: 392px;
+  padding: 0 15px;
+  outline: none;
+}
+.input:focus {
+  border: 1px solid #000;
+}
+.input::-webkit-input-placeholder {
+  color: teal;
+}
+@media (max-width: 470px) {
+  .input {
+    width: 292px;
+  }
+}
+
+.roots {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=index.module.css.map */

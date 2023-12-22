@@ -1,0 +1,13 @@
+.select {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid teal;
+  color: teal;
+}
+.select:focus {
+  border: 1.5px solid black;
+}
+
+/*# sourceMappingURL=index.module.css.map */
