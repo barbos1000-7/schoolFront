@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-self: stretch;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+.item {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login {
+  padding: 30px;
+}
